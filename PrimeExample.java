@@ -4,7 +4,7 @@ public class PrimeExample {
         int n = Integer.parseInt(args[0]);
         m = n/2; 
 
-        if (n==0 || n==0) {
+        if (n==0 || n==1) {
             System.out.println(n + " nie je prvocislo"); 
         } else {
             for (i = 2; i<= m; i++) {
